@@ -44,7 +44,6 @@ class ChatEvent implements ShouldBroadcast
      */
     public function broadcastOn(): Channel|PrivateChannel|array
     {
-
         return new PrivateChannel('channel-chat');
     }
 }

@@ -27,4 +27,6 @@ class MessageController extends Controller
         event(new DirectMessageEvent($data));
         return response(null);
     }
+
+
 }
